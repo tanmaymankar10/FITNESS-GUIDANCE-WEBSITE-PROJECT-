@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Dance Program</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Fitness Dance Program</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#classes">Classes</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to Fitness Dance Program</h2>
+        <p>Your destination for fun, energetic dance classes!</p>
+        <a href="#classes" class="btn">View Classes</a>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Meet our team of experienced dance instructors who are passionate about helping you achieve your fitness goals through dance.</p>
+    </section>
+
+    <section id="classes">
+        <h2>Our Classes</h2>
+        <div class="class">
+            <h3>Hip Hop</h3>
+            <p>Get ready to groove to the latest hip hop beats in our high-energy hip hop classes.</p>
+            <p>Class Schedule: Monday & Wednesday, 6:00 PM - 7:00 PM</p>
+        </div>
+        <div class="class">
+            <h3>Zumba</h3>
+            <p>Dance your way to fitness with our Zumba classes, featuring Latin-inspired dance moves.</p>
+            <p>Class Schedule: Tuesday & Thursday, 7:00 PM - 8:00 PM</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions or want to sign up for a class? Reach out to us!</p>
+        <form action="contact.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Fitness Dance Program. All rights reserved.</p>
+    </footer>
+</body>
+</html>
